@@ -1,0 +1,12 @@
+{
+  "name": "tsx-not-found",
+  "type": "module",
+  "main": "src/index.ts",
+  "dependencies": {
+    "tsx": "^3.12.1"
+  },
+  "scripts": {
+    "postinstall": "cp -r _to_copy_pkg node_modules/pkg",
+    "start": "tsx ."
+  }
+}
